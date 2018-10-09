@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3195931216D4D36002ADE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195930216D4D36002ADE3D /* AppDelegate.swift */; };
+		B3195933216D4D36002ADE3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195932216D4D36002ADE3D /* ViewController.swift */; };
+		B3195936216D4D36002ADE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3195934216D4D36002ADE3D /* Main.storyboard */; };
+		B3195938216D4D38002ADE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3195937216D4D38002ADE3D /* Assets.xcassets */; };
+		B319593B216D4D38002ADE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3195939216D4D38002ADE3D /* LaunchScreen.storyboard */; };
+		B3195946216D4D38002ADE3D /* squashAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195945216D4D38002ADE3D /* squashAppTests.swift */; };
+		B3195951216D4D38002ADE3D /* squashAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195950216D4D38002ADE3D /* squashAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3195942216D4D38002ADE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3195925216D4D36002ADE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B319592C216D4D36002ADE3D;
+			remoteInfo = squashApp;
+		};
+		B319594D216D4D38002ADE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3195925216D4D36002ADE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B319592C216D4D36002ADE3D;
+			remoteInfo = squashApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B319592D216D4D36002ADE3D /* squashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3195930216D4D36002ADE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3195932216D4D36002ADE3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3195935216D4D36002ADE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3195937216D4D38002ADE3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B319593A216D4D38002ADE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B319593C216D4D38002ADE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3195941216D4D38002ADE3D /* squashAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = squashAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3195945216D4D38002ADE3D /* squashAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squashAppTests.swift; sourceTree = "<group>"; };
+		B3195947216D4D38002ADE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B319594C216D4D38002ADE3D /* squashAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = squashAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3195950216D4D38002ADE3D /* squashAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squashAppUITests.swift; sourceTree = "<group>"; };
+		B3195952216D4D38002ADE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B319592A216D4D36002ADE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B319593E216D4D38002ADE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3195949216D4D38002ADE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3195924216D4D36002ADE3D = {
+			isa = PBXGroup;
+			children = (
+				B319592F216D4D36002ADE3D /* squashApp */,
+				B3195944216D4D38002ADE3D /* squashAppTests */,
+				B319594F216D4D38002ADE3D /* squashAppUITests */,
+				B319592E216D4D36002ADE3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B319592E216D4D36002ADE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B319592D216D4D36002ADE3D /* squashApp.app */,
+				B3195941216D4D38002ADE3D /* squashAppTests.xctest */,
+				B319594C216D4D38002ADE3D /* squashAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B319592F216D4D36002ADE3D /* squashApp */ = {
+			isa = PBXGroup;
+			children = (
+				B3195930216D4D36002ADE3D /* AppDelegate.swift */,
+				B3195932216D4D36002ADE3D /* ViewController.swift */,
+				B3195934216D4D36002ADE3D /* Main.storyboard */,
+				B3195937216D4D38002ADE3D /* Assets.xcassets */,
+				B3195939216D4D38002ADE3D /* LaunchScreen.storyboard */,
+				B319593C216D4D38002ADE3D /* Info.plist */,
+			);
+			path = squashApp;
+			sourceTree = "<group>";
+		};
+		B3195944216D4D38002ADE3D /* squashAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3195945216D4D38002ADE3D /* squashAppTests.swift */,
+				B3195947216D4D38002ADE3D /* Info.plist */,
+			);
+			path = squashAppTests;
+			sourceTree = "<group>";
+		};
+		B319594F216D4D38002ADE3D /* squashAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3195950216D4D38002ADE3D /* squashAppUITests.swift */,
+				B3195952216D4D38002ADE3D /* Info.plist */,
+			);
+			path = squashAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B319592C216D4D36002ADE3D /* squashApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3195955216D4D38002ADE3D /* Build configuration list for PBXNativeTarget "squashApp" */;
+			buildPhases = (
+				B3195929216D4D36002ADE3D /* Sources */,
+				B319592A216D4D36002ADE3D /* Frameworks */,
+				B319592B216D4D36002ADE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = squashApp;
+			productName = squashApp;
+			productReference = B319592D216D4D36002ADE3D /* squashApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3195940216D4D38002ADE3D /* squashAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3195958216D4D38002ADE3D /* Build configuration list for PBXNativeTarget "squashAppTests" */;
+			buildPhases = (
+				B319593D216D4D38002ADE3D /* Sources */,
+				B319593E216D4D38002ADE3D /* Frameworks */,
+				B319593F216D4D38002ADE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3195943216D4D38002ADE3D /* PBXTargetDependency */,
+			);
+			name = squashAppTests;
+			productName = squashAppTests;
+			productReference = B3195941216D4D38002ADE3D /* squashAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B319594B216D4D38002ADE3D /* squashAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B319595B216D4D38002ADE3D /* Build configuration list for PBXNativeTarget "squashAppUITests" */;
+			buildPhases = (
+				B3195948216D4D38002ADE3D /* Sources */,
+				B3195949216D4D38002ADE3D /* Frameworks */,
+				B319594A216D4D38002ADE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B319594E216D4D38002ADE3D /* PBXTargetDependency */,
+			);
+			name = squashAppUITests;
+			productName = squashAppUITests;
+			productReference = B319594C216D4D38002ADE3D /* squashAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3195925216D4D36002ADE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Leo;
+				TargetAttributes = {
+					B319592C216D4D36002ADE3D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B3195940216D4D38002ADE3D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B319592C216D4D36002ADE3D;
+					};
+					B319594B216D4D38002ADE3D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B319592C216D4D36002ADE3D;
+					};
+				};
+			};
+			buildConfigurationList = B3195928216D4D36002ADE3D /* Build configuration list for PBXProject "squashApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3195924216D4D36002ADE3D;
+			productRefGroup = B319592E216D4D36002ADE3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B319592C216D4D36002ADE3D /* squashApp */,
+				B3195940216D4D38002ADE3D /* squashAppTests */,
+				B319594B216D4D38002ADE3D /* squashAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B319592B216D4D36002ADE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B319593B216D4D38002ADE3D /* LaunchScreen.storyboard in Resources */,
+				B3195938216D4D38002ADE3D /* Assets.xcassets in Resources */,
+				B3195936216D4D36002ADE3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B319593F216D4D38002ADE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B319594A216D4D38002ADE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3195929216D4D36002ADE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3195933216D4D36002ADE3D /* ViewController.swift in Sources */,
+				B3195931216D4D36002ADE3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B319593D216D4D38002ADE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3195946216D4D38002ADE3D /* squashAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3195948216D4D38002ADE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3195951216D4D38002ADE3D /* squashAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3195943216D4D38002ADE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B319592C216D4D36002ADE3D /* squashApp */;
+			targetProxy = B3195942216D4D38002ADE3D /* PBXContainerItemProxy */;
+		};
+		B319594E216D4D38002ADE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B319592C216D4D36002ADE3D /* squashApp */;
+			targetProxy = B319594D216D4D38002ADE3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3195934216D4D36002ADE3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3195935216D4D36002ADE3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3195939216D4D38002ADE3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B319593A216D4D38002ADE3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3195953216D4D38002ADE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3195954216D4D38002ADE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3195956216D4D38002ADE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCN9L8EXJW;
+				INFOPLIST_FILE = squashApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.squashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3195957216D4D38002ADE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCN9L8EXJW;
+				INFOPLIST_FILE = squashApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.squashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3195959216D4D38002ADE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCN9L8EXJW;
+				INFOPLIST_FILE = squashAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.squashAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/squashApp.app/squashApp";
+			};
+			name = Debug;
+		};
+		B319595A216D4D38002ADE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCN9L8EXJW;
+				INFOPLIST_FILE = squashAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.squashAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/squashApp.app/squashApp";
+			};
+			name = Release;
+		};
+		B319595C216D4D38002ADE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCN9L8EXJW;
+				INFOPLIST_FILE = squashAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.squashAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = squashApp;
+			};
+			name = Debug;
+		};
+		B319595D216D4D38002ADE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCN9L8EXJW;
+				INFOPLIST_FILE = squashAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.squashAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = squashApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3195928216D4D36002ADE3D /* Build configuration list for PBXProject "squashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3195953216D4D38002ADE3D /* Debug */,
+				B3195954216D4D38002ADE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3195955216D4D38002ADE3D /* Build configuration list for PBXNativeTarget "squashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3195956216D4D38002ADE3D /* Debug */,
+				B3195957216D4D38002ADE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3195958216D4D38002ADE3D /* Build configuration list for PBXNativeTarget "squashAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3195959216D4D38002ADE3D /* Debug */,
+				B319595A216D4D38002ADE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B319595B216D4D38002ADE3D /* Build configuration list for PBXNativeTarget "squashAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B319595C216D4D38002ADE3D /* Debug */,
+				B319595D216D4D38002ADE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3195925216D4D36002ADE3D /* Project object */;
+}
