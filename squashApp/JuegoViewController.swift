@@ -72,11 +72,11 @@ class JuegoViewController: UIViewController, UICollisionBehaviorDelegate {
             trayOriginalCenter = self.racquet.center;
             print("Gesture began")
         } else if sender.state == .changed {
-            self.racquet.center = CGPoint(x: trayOriginalCenter.x + translation.x, y: trayOriginalCenter.y + translation.y)
+            self.racquet.center = CGPoint(x: trayOriginalCenter.x + translation.x, y: trayOriginalCenter.y )
             animator.updateItem(usingCurrentState: racquet);
             print("Gesture is changing")
         } else if sender.state == .ended {
-            self.racquet.center = CGPoint(x: trayOriginalCenter.x + translation.x, y: trayOriginalCenter.y + translation.y)
+            self.racquet.center = CGPoint(x: trayOriginalCenter.x + translation.x, y: trayOriginalCenter.y )
             print("Gesture ended")
         }
     }
