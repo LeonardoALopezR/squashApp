@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3BB6B47217526DD00A297E2 /* Puntos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BB6B46217526DD00A297E2 /* Puntos.swift */; };
+		A3BB6B492175451F00A297E2 /* Obstaculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BB6B482175451F00A297E2 /* Obstaculos.swift */; };
 		B318930721741F4D0026FBC0 /* MarcadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318930621741F4D0026FBC0 /* MarcadorViewController.swift */; };
 		B318930921741FC40026FBC0 /* InstruccionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318930821741FC40026FBC0 /* InstruccionesViewController.swift */; };
 		B3195931216D4D36002ADE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195930216D4D36002ADE3D /* AppDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3BB6B46217526DD00A297E2 /* Puntos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puntos.swift; sourceTree = "<group>"; };
+		A3BB6B482175451F00A297E2 /* Obstaculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstaculos.swift; sourceTree = "<group>"; };
 		B318930621741F4D0026FBC0 /* MarcadorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcadorViewController.swift; sourceTree = "<group>"; };
 		B318930821741FC40026FBC0 /* InstruccionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstruccionesViewController.swift; sourceTree = "<group>"; };
 		B319592D216D4D36002ADE3D /* squashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,8 @@
 				B3195932216D4D36002ADE3D /* ViewController.swift */,
 				B3195934216D4D36002ADE3D /* Main.storyboard */,
 				B3DAAA532174259200CD3618 /* JuegoViewController.swift */,
+				A3BB6B46217526DD00A297E2 /* Puntos.swift */,
+				A3BB6B482175451F00A297E2 /* Obstaculos.swift */,
 				B318930821741FC40026FBC0 /* InstruccionesViewController.swift */,
 				B318930621741F4D0026FBC0 /* MarcadorViewController.swift */,
 				B3195937216D4D38002ADE3D /* Assets.xcassets */,
@@ -202,6 +208,7 @@
 				TargetAttributes = {
 					B319592C216D4D36002ADE3D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					B3195940216D4D38002ADE3D = {
 						CreatedOnToolsVersion = 10.0;
@@ -265,11 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BB6B47217526DD00A297E2 /* Puntos.swift in Sources */,
 				B318930921741FC40026FBC0 /* InstruccionesViewController.swift in Sources */,
 				B318930721741F4D0026FBC0 /* MarcadorViewController.swift in Sources */,
 				B3195933216D4D36002ADE3D /* ViewController.swift in Sources */,
 				B3DAAA542174259200CD3618 /* JuegoViewController.swift in Sources */,
 				B3195931216D4D36002ADE3D /* AppDelegate.swift in Sources */,
+				A3BB6B492175451F00A297E2 /* Obstaculos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,14 +456,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XCN9L8EXJW;
 				INFOPLIST_FILE = squashApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = leo.squashApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -466,14 +475,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XCN9L8EXJW;
 				INFOPLIST_FILE = squashApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = leo.squashApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
