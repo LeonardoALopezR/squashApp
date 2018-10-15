@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B318930721741F4D0026FBC0 /* MarcadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318930621741F4D0026FBC0 /* MarcadorViewController.swift */; };
+		B318930921741FC40026FBC0 /* InstruccionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318930821741FC40026FBC0 /* InstruccionesViewController.swift */; };
 		B3195931216D4D36002ADE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195930216D4D36002ADE3D /* AppDelegate.swift */; };
 		B3195933216D4D36002ADE3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195932216D4D36002ADE3D /* ViewController.swift */; };
 		B3195936216D4D36002ADE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3195934216D4D36002ADE3D /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B319593B216D4D38002ADE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3195939216D4D38002ADE3D /* LaunchScreen.storyboard */; };
 		B3195946216D4D38002ADE3D /* squashAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195945216D4D38002ADE3D /* squashAppTests.swift */; };
 		B3195951216D4D38002ADE3D /* squashAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3195950216D4D38002ADE3D /* squashAppUITests.swift */; };
+		B3DAAA542174259200CD3618 /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DAAA532174259200CD3618 /* JuegoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B318930621741F4D0026FBC0 /* MarcadorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcadorViewController.swift; sourceTree = "<group>"; };
+		B318930821741FC40026FBC0 /* InstruccionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstruccionesViewController.swift; sourceTree = "<group>"; };
 		B319592D216D4D36002ADE3D /* squashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3195930216D4D36002ADE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3195932216D4D36002ADE3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		B319594C216D4D38002ADE3D /* squashAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = squashAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3195950216D4D38002ADE3D /* squashAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squashAppUITests.swift; sourceTree = "<group>"; };
 		B3195952216D4D38002ADE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DAAA532174259200CD3618 /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				B3195930216D4D36002ADE3D /* AppDelegate.swift */,
 				B3195932216D4D36002ADE3D /* ViewController.swift */,
 				B3195934216D4D36002ADE3D /* Main.storyboard */,
+				B3DAAA532174259200CD3618 /* JuegoViewController.swift */,
+				B318930821741FC40026FBC0 /* InstruccionesViewController.swift */,
+				B318930621741F4D0026FBC0 /* MarcadorViewController.swift */,
 				B3195937216D4D38002ADE3D /* Assets.xcassets */,
 				B3195939216D4D38002ADE3D /* LaunchScreen.storyboard */,
 				B319593C216D4D38002ADE3D /* Info.plist */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B318930921741FC40026FBC0 /* InstruccionesViewController.swift in Sources */,
+				B318930721741F4D0026FBC0 /* MarcadorViewController.swift in Sources */,
 				B3195933216D4D36002ADE3D /* ViewController.swift in Sources */,
+				B3DAAA542174259200CD3618 /* JuegoViewController.swift in Sources */,
 				B3195931216D4D36002ADE3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
